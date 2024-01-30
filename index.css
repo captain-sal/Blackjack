@@ -1,0 +1,50 @@
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  margin: 0;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", Arial,
+    sans-serif;
+  background-image: url("flat-design-poker-table-background_23-2151047002.avif");
+  background-color: black;
+  background-size: cover;
+  font-weight: bold;
+  color: white;
+  text-align: center;
+}
+
+.container {
+  align-items: center;
+  border: 2px solid #e4e9e4;
+  border-radius: 20px;
+  padding: 20px;
+  background: rgba(5, 76, 28, 0.395); /* Adjust the opacity as needed */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add a subtle box shadow */
+  width: 60%; /* Adjust the width as needed */
+  max-width: 400px;
+}
+
+h1 {
+  border: #016f32;
+  align-items: center;
+  padding: auto;
+  color: goldenrod;
+}
+
+#message-el {
+  font-style: italic;
+}
+
+button {
+  color: #016f32;
+  width: 150px;
+  background: goldenrod;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  font-weight: bold;
+  border: none;
+  border-radius: 2px;
+  margin-bottom: 2px;
+  margin-top: 2px;
+}
